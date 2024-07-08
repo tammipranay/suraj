@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child,.child2,.child3,.child4,.child5,.child6,.child7,.child8,.child9,.child10{
+            background-color: aqua;
+            width: 20%;
+            height: 200px;
+            border-radius: 20px;
+            display: inline-block;
+            padding: 20px;
+            margin: 20px;
+            transition-duration: 3s;
+            text-align: center;
+            
+        }
+        
+        .child:hover{
+            background-color: red;
+            transform: rotate(40deg)
+            
+        }
+        .child2:hover{
+            background-color: orange;
+            transform: translate(60px,80px);
+        }
+        .child3:hover{
+            background-color: blueviolet;
+            transform:scale(1,2)
+        }
+        .child4:hover{
+            background-color: greenyellow;
+            transform:scalex(2)
+        }
+        .child5:hover{
+            background-color: purple;
+            transform:scaleY(2)
+        }
+        .child6:hover{
+            background-color:white;
+           transform:skewX(20deg)
+        }
+        .child7:hover{
+            background-color:brown;
+            transform:skewY(30deg)
+        }
+        .child8:hover{
+            background-color: pink;
+            transform:skew(30deg,40deg)  
+        }
+        .child9:hover{
+            background-color: maroon;
+            transform:skew(30deg,40deg)  
+        }
+        .child10:hover{
+            transition: width 2s, height 4s; 
+            background-color: gold;
+            transform:skew(30deg,40deg) 
+            
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <center>
+        <div class="child" ><h1>rotate</h1></div>
+        <div class="child2" ><h1>transform</h1></div>
+        <div class="child3" ><h1>scale</h1></div>
+        <div class="child4" ><h1>scaleX</h1></div>
+        <div class="child5" ><h1>scaleY</h1></div>
+        <div class="child6" ><h1>skewX</h1></div>
+        <div class="child7" ><h1>skewY</h1></div>
+        <div class="child8" ><h1>skewX</h1></div>
+        <div class="child9" ><h1>scaleY</h1></div>
+        <div class="child10" ><h1>scale</h1></div>
+    </center>
+</body>
+</html
