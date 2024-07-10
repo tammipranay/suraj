@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html>  
+  
+<head> 
+    <style> 
+        body { 
+            justify-content: center; 
+        } 
+          
+        .ball { 
+            animation-name:bounce;
+            animation-duration: 1s;
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%; 
+            background-color: #FF5722;  
+            animation-direction: alternate;
+            display: inline-block;
+            transform: rotate(180deg);
+            top: 100px;
+        
+            
+            animation-iteration-count: infinite; 
+        } 
+     
+
+
+        .b2{
+            animation-name: bounce;
+            animation-duration: 1s;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #FF5722;
+            animation-direction: alternate;
+            display: inline-block;
+            animation-delay: 0.3s;
+            top: 100px;
+            
+            animation-iteration-count: infinite; 
+
+        }
+        .b3{
+            animation-name: bounce;
+            animation-duration: 1s;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #FF5722;
+            animation-direction: alternate;
+            display: inline-block;
+            animation-delay: 0.6s;
+            top: 100px;
+            
+            animation-iteration-count: infinite
+
+        }
+          
+        @keyframes bounce { 
+            from { 
+                transform: translate(0, 0); 
+            } 
+            to { 
+                transform:translate(0, 200px); 
+            } 
+        } 
+      
+  
+  
+  .boun1 {
+    animation-name: boun;
+    position: absolute;
+    animation-direction: alternate;
+    top: 50%;
+    left: 48%;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    animation-duration: 2s;
+            
+    animation-iteration-count: infinite; 
+  }
+  .boun2 {
+    animation-name: boun;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+  }
+  .boun3 {
+    animation-name: boun;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    top: 50%;
+    left: 52%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #333;
+    border-radius: 50%;
+    animation-duration: 2s;
+    display: inline-block;
+
+    animation-iteration-count: infinite; 
+  }
+    @keyframes boun{
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(2);
+        }
+
+
+}
+  
+   </style>
+   <body>
+    <center>
+    <div class="ball"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+   </center>
+<center>
+    <div class="boun1"></div>
+    <div class="boun2"></div>
+    <div class="boun3"></div>
+  </div>
+</center>
+</body>
+</html>
